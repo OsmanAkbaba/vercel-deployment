@@ -424,6 +424,8 @@ button2:hover {
   cursor: pointer; 
   transition: background-color 0.3s ease; 
   margin-left: 100px;
+  width: 120px;
+  height: 37px;
 }
 
 .info-button:hover {
@@ -447,7 +449,7 @@ button2:hover {
   padding: 20px;
   border-radius: 5px;
   font-size: 16px;
-  color: #000000;
+  color: #333;
   line-height: 1.6;
 }
 
@@ -464,14 +466,14 @@ button2:hover {
   border-radius: 5px;
   padding: 10px 20px;
   background-color: #2bb43d;
-  color: #fff;
+  color: #000000;
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .info-button:hover {
-  background-color: #ffffff;
+  background-color: #ddd;
 }
 
 
