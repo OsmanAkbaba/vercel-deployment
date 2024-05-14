@@ -3,7 +3,13 @@
     "builds": [{"src": "./index.js", "use":
     "@vercel/node" }],
     "routes": [
-        {"src": "/getdata", "dest": "/getdata"}
+         {"src": "/(.*)", "dest": "/"},
+        {"src": "/getdata", "dest": "/getdata"},
+        {"src": "/price", "dest": "/price"},
+        {"src": "/limits", "dest": "/limits"},
+        {"src": "/getdata", "dest": "/getdata"},
+        {"src": "/get20data", "dest": "/get20data"},
+        {"src": "/weather", "dest": "/weather"}
         
         
     ]
