@@ -17,10 +17,11 @@ const Home = () => {
   const [isLightIntensityLimits, setIsLightIntensityLimits] = useState(true);
   const [isInfoVisible, setIsInfoVisible] = useState(false);
 
-  const toggleInfo = () => {
+  const toggleInfo = (event) => {
+    event.stopPropagation();
     setIsInfoVisible(!isInfoVisible);
   };
-  
+
   const refreshPage = () => {
     window.location.reload();
   };
@@ -188,14 +189,14 @@ const Home = () => {
   return (
     <div>
       <h1>Home</h1>
-      <button className="info-button" onClick={toggleInfo}>
+      <button className="info-button" onClick={(event) => toggleInfo(event)}>
         Info
       </button>
        
        {isInfoVisible && (
         <div className="info-modal">
           <div className="info-content">
-          <span className="close" onClick={toggleInfo}>&times;</span>
+          <span className="close" onClick={(event) => toggleInfo(event)}>&times;</span>
           <div className="info-text">  
                   
           <p> Webapp is made by students of Oulu University of Applied Sciences.<br></br>This is company-oriented project made with company called Haltian. <br></br> 
