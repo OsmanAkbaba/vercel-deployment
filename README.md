@@ -6,10 +6,22 @@ The project aimed to create an application that monitors the air conditions insi
 ## Client Link
 
 https://greenhouse1.vercel.app/
+second link displays also current SPOT-electricity price and current energy consumption in Finland. 
+https://vercel-deployment-frontend-two.vercel.app/
 
 ## Backend Link
 
-https://greenhouse-app-server.onrender.com
+https://vercel-deployment-backend-ochre.vercel.app/
+
+You must choose the location for the data, so put on of the following directory after app
+1. getdata
+2. get20data
+3. price
+4. weather
+5. limits
+6. forecast
+7. consumption
+8. logdata
 
 ## Technologies
 
