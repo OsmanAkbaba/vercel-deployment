@@ -114,7 +114,7 @@ REACT_APP_SERVER_URL=http://localhost:your_port_number
 
 ### Captures of Application
 
-![Vercel deployment](https://github.com/OsmanAkbaba/vercel-deployment/assets/97663158/16e52e72-f820-42cf-98a2-637a0ba6d7f3)
+![Vercel deployment1](https://github.com/OsmanAkbaba/vercel-deployment/assets/97663158/32a23d8a-30e0-4592-9618-c646393f41c6)
 
 ![Screenshot 2024-04-24 at 23 43 15](https://github.com/Haltian-project/Greenhouse/assets/28098368/530e29b1-52e1-4ea9-ab2d-56e37121c652)
 
