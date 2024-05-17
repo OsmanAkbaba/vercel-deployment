@@ -24,7 +24,7 @@ Database: MongoDB
 
 Coding: Visual studio code
 
-Deployment: Vercel, Render
+Deployment: Vercel
 
 ## Main Features
 1. Displays air conditions in the greenhouse. Includes temperature, humidity, carbon dioxide, air pressure and light level.
